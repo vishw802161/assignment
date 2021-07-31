@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(image/image3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    color: white;
+    margin: 20px 0 20px;
+    font-size: 70px;
+}
+.nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    width: 100%;
+    color: #fff;
+}
+.nav #logo{
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: 40px;
+}
+span{
+    color: #f9004d;
+}
+ul li{
+    display: inline-block;
+    padding: 5px 10px;
+}
+ul li a{
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+ul li:hover a{
+    background: #fff;
+    color: #000;
+    border-radius: 20px;
+}
+.sbtn{
+    background-color: #f9004d;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 30px;
+    transition: transform .5s;
+}
+.sbtn:hover{
+    transform: scale(1.1);
+    border: 2px solid #fff;
+    color: #000;
+    font-weight: 800;
+}
+.content{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: rgb(209, 202, 202);
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.s_email form{
+    width: 400px;
+    max-width: 100%;
+    position: relative;
+}
+.s_email form input:first-child {
+  width: 100%;
+  display: inline-block;
+  padding: 14px 130px 14px 15px;
+  border: 2px solid #f9004d;
+  border-radius: 30px;
+}
+.s_email form input:last-child {
+    position: absolute;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    background-color: #f9004d;
+    color: white;
+    top: 6px;
+    right: 6px;
+    cursor: pointer;
+}
+.s_icon{
+    padding: 70px 0 20px 50px;
+}
+.s_icon img{
+    width: 30px;
+    margin: 0 40px 0 0;
+    height: 30px;
+}
