@@ -99,14 +99,14 @@ h4{
     cursor: pointer;
 }
 .s_icon{
-    padding: 70px 0 20px 50px;
+    padding: 50px 0 20px 50px;
 }
 .s_icon img{
-    width: 30px;
+    width: 20px;
     margin: 0 40px 0 0;
-    height: 30px;
+    height: 20px;
     transition: transform .5s;
 }
-.s_icone img:hover{
-    transform: scale(1.1);
+.s_icon img:hover{
+    transform: scale(2.2);
 }
